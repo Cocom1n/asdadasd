@@ -1,0 +1,25 @@
+body {
+    overflow: hidden;
+}
+
+.seccion{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flechas{
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.flechas:hover{
+    background-color: transparent;
+    border-color: pink;
+    border-style:dotted;
+}
