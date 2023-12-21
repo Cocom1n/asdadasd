@@ -26,8 +26,10 @@ function App (){
 
             <div ref={seccion2Ref} className='seccion'>
                 <Tateti />
-                <button className='flechas' onClick={() => scrollToSection(seccion1Ref)}>↑</button>
-                <button className='flechas' onClick={() => scrollToSection(seccion3Ref)}>↓</button>
+                <div className='dobleBoton'>
+                    <button className='flechas' onClick={() => scrollToSection(seccion1Ref)}>↑</button>
+                    <button className='flechas' onClick={() => scrollToSection(seccion3Ref)}>↓</button>
+                </div>
             </div>
 
             <div ref={seccion3Ref} className='seccion'>

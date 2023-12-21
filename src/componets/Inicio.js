@@ -21,7 +21,7 @@ function Inicio(){
                 <p className="coso">{nombreActual}</p>
             </div>
             
-            <section className="tonotos"></section>
+            <section id="minji"></section>
         </div>
         
     )

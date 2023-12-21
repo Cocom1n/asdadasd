@@ -1,8 +1,12 @@
-.tonotos{
+#minji{
     background-image: url(../../public/img/nj2.png);
     height: 50vh;
     width: 30vh;
     background-size: cover;
+}
+
+#minji:hover{
+    transform: translateY(-5px);
 }
 
 .contenedor-inicio{
@@ -44,9 +48,9 @@
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid white;
-    width: 10ch;
+    width: 15ch;
     height: 15px;
-    animation: typing 4s steps(9) infinite, blink .5s infinite step-end alternate;
+    animation: typing 4s steps(15) infinite, blink .5s infinite step-end alternate;
     overflow: hidden;
     
 }
