@@ -15,14 +15,38 @@
 
 .bienvenida{
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.interactivo{
+    display: flex;
+}
+
+.interactivo input{
+    width: 100px;
+    border: 1px solid pink;
+    border-radius: 50px;
+}
+
+.interactivo button{
+    border: 1px solid pink;
+    background-color: white;
+    color: pink;
+    border-radius: 50px;
+    padding: 2px 15px;
+}
+
+
 .coso{
     display: block;
     font-family: monospace;
     white-space: nowrap;
-    border-right: 4px solid;
-    width: 15ch;
-    animation: typing 4s steps(10) infinite, blink .5s infinite step-end alternate;
+    border-right: 4px solid white;
+    width: 10ch;
+    height: 15px;
+    animation: typing 4s steps(9) infinite, blink .5s infinite step-end alternate;
     overflow: hidden;
     
 }

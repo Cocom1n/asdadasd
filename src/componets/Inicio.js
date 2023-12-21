@@ -14,8 +14,10 @@ function Inicio(){
         <div className="contenedor-inicio">
             <div className="bienvenida">
                 <h1>¡Feliz PapuNavidad!</h1>
-                <input placeholder="Nombre!" onChange={(e) => setNombreJugador(e.target.value)}></input>
-                <button onClick={mostrar}></button>
+                <section className='interactivo'>
+                    <input onChange={(e) => setNombreJugador(e.target.value)}></input>
+                    <button onClick={mostrar}> owo </button>
+                </section>
                 <p className="coso">{nombreActual}</p>
             </div>
             
