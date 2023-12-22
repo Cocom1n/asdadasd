@@ -1,3 +1,6 @@
+*{
+    margin: 0%;
+}
 .tateti{
     font-family: monospace;
     width: 100%;
@@ -49,6 +52,65 @@
     height: 63%;
     padding: 0 13px;
 }
+/* DATOS */
+.datos{
+    border-bottom: 1px solid #f6d9f9;
+    padding: 5px;
+    margin: 3px;
+}
+
+.datos p{
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.nombre{
+    color: #1c151f;
+    font-size: 25px;
+}
+.subTittle{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.datos2 p{
+    margin-left: 15px;
+}
+
+/*  REPRODUCTOR DE MUSICA */
+
+.musica{
+    background-image: url(../../public/img/nj.png);
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+}
+.reproductor{
+    display: flex;
+    margin: 5px 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-bottom: 4px solid #f2cdf7;
+}
+.info{
+    font-size: 14px;
+    padding-left: 15px;
+    
+    margin: auto;
+    margin-left: 0;
+}
+.info p{
+    margin: 4px 0px;
+}
+.info .cosito{
+    font-weight: bolder;
+}
+.numeritos{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+/* ROLES */
 
 .roles{
     display: flex;
@@ -78,6 +140,32 @@
     margin-right: 5px;
 }
 
+#b1{
+    background-color: rgb(255, 171, 220);
+}
+
+#b2{
+    background-color: rgb(150, 143, 240);
+}
+
+#b3{
+    background-color: #366279;
+}
+
+#b4{
+    background-color: #b4d7ff;
+}
+
+#b5{
+    background-color: #facf71;
+}
+
+#b6{
+    background-color: #fa7671;
+}
+
+/* PNGS DE LAS NEWJEANS */
+
 #danielle{
     background-image: url(../../public/img/nj5.png);
     height: 50vh;
@@ -102,28 +190,4 @@
 
 #haerin:hover{
     transform: scale(1.1);
-}
-
-#b1{
-    background-color: rgb(255, 171, 220);
-}
-
-#b2{
-    background-color: rgb(150, 143, 240);
-}
-
-#b3{
-    background-color: #366279;
-}
-
-#b4{
-    background-color: #b4d7ff;
-}
-
-#b5{
-    background-color: #facf71;
-}
-
-#b6{
-    background-color: #fa7671;
 }

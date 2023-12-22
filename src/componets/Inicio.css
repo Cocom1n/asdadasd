@@ -3,10 +3,11 @@
     height: 50vh;
     width: 30vh;
     background-size: cover;
+    transition: transform 300ms;
 }
 
 #minji:hover{
-    transform: translateY(-5px);
+    transform: scale(1.1);
 }
 
 .contenedor-inicio{
@@ -18,13 +19,16 @@
 }
 
 .bienvenida{
-    width: 300px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 .interactivo{
+    margin: 10px 0px;
     display: flex;
 }
 
