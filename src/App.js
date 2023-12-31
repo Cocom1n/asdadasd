@@ -28,14 +28,14 @@ function App (){
                 <Tateti />
                 <div className='dobleBoton'>
                     <button className='flechas' onClick={() => scrollToSection(seccion1Ref)}>↑</button>
-                    <button className='flechas' onClick={() => scrollToSection(seccion3Ref)}>↓</button>
+                    {/* <button className='flechas' onClick={() => scrollToSection(seccion3Ref)}>↓</button> */}
                 </div>
             </div>
 
-            <div ref={seccion3Ref} className='seccion'>
+            {/* <div ref={seccion3Ref} className='seccion'>
                 <Cartita />
                 <button className='flechas' onClick={() => scrollToSection(seccion2Ref)}>↑</button>
-            </div>
+            </div> */}
             
             
 
