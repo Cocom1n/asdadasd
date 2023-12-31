@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/asdadasd/static/css/main.ac47afd6.css",
-    "main.js": "/asdadasd/static/js/main.bf706e6e.js",
+    "main.css": "/asdadasd/static/css/main.52277292.css",
+    "main.js": "/asdadasd/static/js/main.c12c3bcf.js",
     "reactPlayerYouTube.js": "/asdadasd/static/js/reactPlayerYouTube.c2e02cb0.chunk.js",
     "reactPlayerSoundCloud.js": "/asdadasd/static/js/reactPlayerSoundCloud.c78bafca.chunk.js",
     "reactPlayerVimeo.js": "/asdadasd/static/js/reactPlayerVimeo.0d037ce1.chunk.js",
@@ -17,13 +17,16 @@
     "reactPlayerPreview.js": "/asdadasd/static/js/reactPlayerPreview.84a952ff.chunk.js",
     "static/media/TwVideo.mp4": "/asdadasd/static/media/TwVideo.ffab29ada03fb5e552d0.mp4",
     "static/media/pfp.png": "/asdadasd/static/media/pfp.abd07e534bc33f068920.png",
+    "static/media/nj3.png": "/asdadasd/static/media/nj3.eafc397464bec1ff522b.png",
     "static/media/nj1.png": "/asdadasd/static/media/nj1.f425becca2b832d60691.png",
     "static/media/nj5.png": "/asdadasd/static/media/nj5.d946a52f91c349939991.png",
     "static/media/nj2.png": "/asdadasd/static/media/nj2.f9c45a02c0749e13951e.png",
+    "static/media/nj4.png": "/asdadasd/static/media/nj4.f74ce226d478a9287ec8.png",
     "static/media/nj.png": "/asdadasd/static/media/nj.f7684cc93068b9f7e558.png",
+    "static/media/yo.jpg": "/asdadasd/static/media/yo.560d2e48fafddecda0a2.jpg",
     "index.html": "/asdadasd/index.html",
-    "main.ac47afd6.css.map": "/asdadasd/static/css/main.ac47afd6.css.map",
-    "main.bf706e6e.js.map": "/asdadasd/static/js/main.bf706e6e.js.map",
+    "main.52277292.css.map": "/asdadasd/static/css/main.52277292.css.map",
+    "main.c12c3bcf.js.map": "/asdadasd/static/js/main.c12c3bcf.js.map",
     "reactPlayerYouTube.c2e02cb0.chunk.js.map": "/asdadasd/static/js/reactPlayerYouTube.c2e02cb0.chunk.js.map",
     "reactPlayerSoundCloud.c78bafca.chunk.js.map": "/asdadasd/static/js/reactPlayerSoundCloud.c78bafca.chunk.js.map",
     "reactPlayerVimeo.0d037ce1.chunk.js.map": "/asdadasd/static/js/reactPlayerVimeo.0d037ce1.chunk.js.map",
@@ -39,7 +42,7 @@
     "reactPlayerPreview.84a952ff.chunk.js.map": "/asdadasd/static/js/reactPlayerPreview.84a952ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac47afd6.css",
-    "static/js/main.bf706e6e.js"
+    "static/css/main.52277292.css",
+    "static/js/main.c12c3bcf.js"
   ]
 }
