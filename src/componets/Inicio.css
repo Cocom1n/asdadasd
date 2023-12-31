@@ -36,6 +36,7 @@
     width: 100px;
     border: 1px solid pink;
     border-radius: 50px;
+    padding-left: 15px;
 }
 
 .interactivo button{

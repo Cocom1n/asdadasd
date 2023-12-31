@@ -1,28 +1,34 @@
 .Carita{
+    font-family: monospace;
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    margin: auto;
 }
 
 .palabras{
     margin-top: 20px;
-    background-color: #f6d9f9;
+    background-image: linear-gradient(to bottom, #fbf0f8, #faeff8, #faeef8, #f9eef8, #f8edf8);
+
+    /* background-color: #fef2ff  ; */
     border-radius: 24px;
     width: 55vh;
-    height: 60vh;
+    height: 560px;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     overflow: hidden;
+    border: 1px solid #FFB2E6; 
+    box-shadow: 2px 2px 10px #FFB2E6;
 }
 
 .yomensaje{
     width: 100%;
-    height: 70px;
-    background-color: #ffccee;
+    height: 80px;
+    background-color: #FFD2F3 ;
+    border-bottom: 1px solid #FFB2E6;
     display: flex;
 }
 #yopfp{
@@ -31,30 +37,75 @@
     height: 50px;
     background-size: cover;
     border-radius: 50%; 
-    margin: 10px 20px;
+    margin: auto 20px;
+    border: 3px solid #fef2ff;
 }
 
 .yoo{
     color: #ffffff;
     font-size: 30px;
-    margin: 17px 0px;
+    margin: auto 0px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .msg{
     font-family: monospace;
+    color: #cf6db0;
     font-size: 15px;
-    background-color: #fef2ff;
+    background-color: #ffffff;
     padding: 5px 20px;
     margin: 5px 5px;
     border-radius: 15px;
     border-bottom-left-radius: 0px;
     width: fit-content;
+    box-shadow: 2px 2px 5px #FFD2F3;
+}
+
+.msg2{
+    font-family: monospace;
+    color: #cf6db0;
+    font-size: 15px;
+    background-color: #FFD2F3;
+    padding: 5px 20px;
+    margin: 5px 5px;
+    margin-left: auto;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    width: fit-content;
+    box-shadow: 2px 2px 5px #FFD2F3;
 }
 
 .chat{
-    margin: auto;
-    padding: 0px 30px;
+    margin: auto 20px;
+}
+
+.escribir{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 5px;
+    justify-content: space-around;
+    height: 30px;
+    width: 90%;
+    padding: 15px 25px;
+    background-color: #FFD2F3;
+}
+
+.escribir input{
+    border: 1px solid #cf6db0;
+    border-radius: 50px;
+    padding-left: 15px;
+}
+
+.escribir button{
+    border: 1px solid #cf6db0;
+    background-color: white;
+    color: #cf6db0;
+    border-radius: 50px;
+    padding: 2px 15px;
+}
+
+.escribir button:hover{
+    border: 2px solid #cf6db0;;
 }
 
 /* FOTOS DE LAS NEW JEANS */

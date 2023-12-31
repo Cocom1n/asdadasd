@@ -19,7 +19,7 @@ function Inicio(){
         }else {
             setNombreActual(nombreJugador + " ES INCORRECTO!!");
             if(cliker>=4){
-                setNombreActual("la clave es: Roma!")
+                setNombreActual("la clave es: ****")
             }
         }
     }
@@ -30,7 +30,7 @@ function Inicio(){
                 <div className="bienvenida">
                     <h1>¡Feliz PapuNavidad!</h1>
                     <section className='interactivo'>
-                        <input onChange={(e) => setNombreJugador(e.target.value)}></input>
+                        <input placeholder="????" onChange={(e) => setNombreJugador(e.target.value)}></input>
                         <button onClick={mostrar}> owo </button>
                     </section>
                     <p className="coso">{nombreActual}</p>
