@@ -19,7 +19,7 @@
 }
 
 .bienvenida{
-    width: 350px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,30 +34,37 @@
 
 .interactivo input{
     width: 100px;
-    border: 1px solid pink;
+    border: 1px solid #84c1f3;
     border-radius: 50px;
     padding-left: 15px;
+    background-color: transparent;
 }
 
 .interactivo button{
-    border: 1px solid pink;
-    background-color: white;
-    color: pink;
+    border: 1px solid #84c1f3;
+    background-color: transparent;
+    color: #84c1f3;
     border-radius: 50px;
     padding: 2px 15px;
 }
 
+.bienvenida h1{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid rgb(0, 0, 0);
+    width: 20ch;
+    height: 35px;
+    animation: typing 3s steps(16) infinite, blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
 
 .coso{
     display: block;
     font-family: monospace;
     white-space: nowrap;
-    border-right: 4px solid white;
     width: 25ch;
     height: 15px;
-    animation: typing 4s steps(25) infinite, blink .5s infinite step-end alternate;
-    overflow: hidden;
-    
 }
 
 @keyframes typing{

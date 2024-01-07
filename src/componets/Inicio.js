@@ -43,7 +43,7 @@ function Inicio(){
                     <p className="coso">{nombreActual}</p>
                 </div>
                 
-                <section id="hyerin"></section>
+                {/* <section id="hyerin"></section> */}
             </div>
         )
     }else if (mostrarCarta){

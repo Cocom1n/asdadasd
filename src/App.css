@@ -1,7 +1,7 @@
-/* body {
+body {
     overflow: hidden;
-    background-color: rgb(255, 239, 246);
-} */
+    background-color: rgb(0, 0, 0);
+}
 
 .seccion{
     height: 100vh;
@@ -15,7 +15,7 @@
 }
 
 .flechas{
-    background-color: pink;
+    background-color: #84c1f3;
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -27,6 +27,6 @@
 
 .flechas:hover{
     background-color: transparent;
-    border-color: pink;
+    border-color: #84c1f3;
     border-style:dotted;
 }

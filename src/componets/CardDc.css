@@ -12,12 +12,12 @@
 
 .cardsita{
     margin-top: 20px;
-    background-image: linear-gradient(to bottom, #fff2fb, #feecfa, #fce5f9, #f9dff9, #f6d9f9);
+    background-image: linear-gradient(to right top, #bedcf9, #c2dff9, #c7e2fa, #cbe4fa, #d0e7fb);
     border-radius: 24px;
     width: 425px;
     height: 650px;
     position: relative;
-    border: 5px solid #f6d9f9;
+    border: 5px solid #84c1f3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,12 +31,12 @@
 }
 
 .pfp{
-    background-image: url(../../public/img/pfp.png);
+    background-image: url(../../public/img/npfp.jpg);
     height: 110px;
     width: 110px;
     background-size: cover;
     border-radius: 50%;
-    border: 7px solid #feecfa;
+    border: 7px solid #c2dff9;
     margin-top: -80px;
     margin-right: 60%;
     /* margin-left: 15px; */
@@ -45,7 +45,7 @@
 }
 
 .inferior-baner{
-    background-image: linear-gradient(to bottom, #fbf0f8, #faeff8, #faeef8, #f9eef8, #f8edf8);
+    background-image: linear-gradient(to right top, #dbe8f4, #dfebf5, #e4eef6, #e8f0f7, #edf3f8);
     width: 89%;
     border-radius: 15px;
     margin: auto;
@@ -54,7 +54,7 @@
 }
 /* DATOS */
 .datos-importantes{
-    border-bottom: 1px solid #f6d9f9;
+    border-bottom: 1px solid #84c1f3;
     padding: 5px;
     margin: 3px;
 }
@@ -80,7 +80,7 @@
 /*  REPRODUCTOR DE MUSICA */
 
 .album-cover{
-    background-image: url(../../public/img/nj.png);
+    background-image: url(../../public/img/ncover.jpg);
     height: 70px;
     width: 70px;
     background-size: cover;
@@ -91,7 +91,7 @@
     padding-left: 5px;
     padding-bottom: 10px;
     border-radius: 5px;
-    border-bottom: 4px solid #f2cdf7;
+    border-bottom: 4px solid #84c1f3;
 }
 .informacion{
     font-size: 14px;
@@ -122,8 +122,8 @@
 .rol-unico{
     display: flex;
     font-family: monospace;
-    background-color: #fce5f9;
-    border: 1px solid rgb(216, 186, 210);
+    background-color: #ccddf3;
+    border: 1px solid #84c1f3;
     border-radius: 5px;
     width: max-content;
     padding: 2px 5px;
@@ -147,23 +147,23 @@
 }
 
 #c2{
-    background-color: rgb(150, 143, 240);
+    background-color: rgb(26, 34, 59);
 }
 
 #c3{
-    background-color: #366279;
+    background-color: #bd2e2e;
 }
 
 #c4{
-    background-color: #b4d7ff;
+    background-color: #96b846;
 }
 
 #c5{
-    background-color: #facf71;
+    background-color: #414ad1;
 }
 
 #c6{
-    background-color: #fa7671;
+    background-color: #d6b0d3;
 }
 
 /* PNGS DE LAS NEWJEANS */

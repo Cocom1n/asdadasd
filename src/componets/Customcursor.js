@@ -7,7 +7,7 @@ const Cursor1 = styled.div`
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: radial-gradient(circle farthest-side at center center, #F4B0FF  12%, transparent 100%);  
+    background: radial-gradient(circle farthest-side at center center, #427CE9  12%, transparent 100%);  
     pointer-events: none;
     z-index: -1000;
     transform: translate(-50%, -50%);
@@ -18,7 +18,7 @@ const Cursor2 = styled.div`
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    background: radial-gradient(circle farthest-side at center center, #FFEDB3 12%, transparent 100%);  
+    background: radial-gradient(circle farthest-side at center center, #96CCFF 12%, transparent 100%);  
     pointer-events: none;
     z-index: -1000;
     transform: translate(-50%, -50%);
