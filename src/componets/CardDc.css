@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+}
+.espacio{
+    font-family: monospace;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardsita{
+    margin-top: 20px;
+    background-image: linear-gradient(to bottom, #fff2fb, #feecfa, #fce5f9, #f9dff9, #f6d9f9);
+    border-radius: 24px;
+    width: 425px;
+    height: 650px;
+    position: relative;
+    border: 5px solid #f6d9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.vidio{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+.pfp{
+    background-image: url(../../public/img/pfp.png);
+    height: 110px;
+    width: 110px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 7px solid #feecfa;
+    margin-top: -80px;
+    margin-right: 60%;
+    /* margin-left: 15px; */
+    position: relative;
+    z-index: 1;
+}
+
+.inferior-baner{
+    background-image: linear-gradient(to bottom, #fbf0f8, #faeff8, #faeef8, #f9eef8, #f8edf8);
+    width: 89%;
+    border-radius: 15px;
+    margin: auto;
+    height: 66%;
+    padding: 0 13px;
+}
+/* DATOS */
+.datos-importantes{
+    border-bottom: 1px solid #f6d9f9;
+    padding: 5px;
+    margin: 3px;
+}
+
+.datos-importantes p{
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.name{
+    color: #1c151f;
+    font-size: 28px;
+}
+.encabezado{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.desc p{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/*  REPRODUCTOR DE MUSICA */
+
+.album-cover{
+    background-image: url(../../public/img/nj.png);
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+}
+.music-info{
+    display: flex;
+    margin: 5px 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-bottom: 4px solid #f2cdf7;
+}
+.informacion{
+    font-size: 14px;
+    padding-left: 15px;
+    
+    margin: auto;
+    margin-left: 0;
+}
+.informacion p{
+    margin: 4px 0px;
+}
+.informacion .tittle-song{
+    font-weight: bolder;
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+/* ROLES */
+
+.rols{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rol-unico{
+    display: flex;
+    font-family: monospace;
+    background-color: #fce5f9;
+    border: 1px solid rgb(216, 186, 210);
+    border-radius: 5px;
+    width: max-content;
+    padding: 2px 5px;
+    margin: 3px 3px;
+    transition: transform 300ms;
+}
+
+.rol-unico:hover{
+    transform: scale(1.05);
+}
+
+.circulo{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#c1{
+    background-color: rgb(255, 171, 220);
+}
+
+#c2{
+    background-color: rgb(150, 143, 240);
+}
+
+#c3{
+    background-color: #366279;
+}
+
+#c4{
+    background-color: #b4d7ff;
+}
+
+#c5{
+    background-color: #facf71;
+}
+
+#c6{
+    background-color: #fa7671;
+}
+
+/* PNGS DE LAS NEWJEANS */
+
+#danielle{
+    background-image: url(../../public/img/nj5.png);
+    height: 50vh;
+    width: 30vh;
+    background-size: cover;
+    margin: auto;
+    transition: transform 300ms;
+}
+
+#danielle:hover{
+    transform: scale(1.1);
+}
+
+#haerin{
+    background-image: url(../../public/img/nj1.png);
+    height: 50vh;
+    width: 30vh;
+    background-size: cover;
+    margin: auto;
+    transition: transform 300ms;
+}
+
+#haerin:hover{
+    transform: scale(1.1);
+}

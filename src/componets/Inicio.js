@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import  Cartita  from "./Cartita";
+import NuevaCarta from './nuevaCarta';
 import "./Inicio.css"
 
 function Inicio(){
@@ -8,30 +9,36 @@ function Inicio(){
     const [nombreActual, setNombreActual] = useState(''); 
     const [cliker, setCliker] = useState(0); 
     const [mostrarCarta, setMostrarCarta] = useState(false);
+    const [cosoJ, setcosoJ] = useState(false);
 
-    const mostrar = () => {
-        setCliker(cliker+1);
-        console.log(cliker);
-        if (nombreJugador == "Roma"){
-            setNombreActual(nombreJugador);
-            setMostrarCarta(true);
-            //muestra cuando se pone la clave
-        }else {
-            setNombreActual(nombreJugador + " ES INCORRECTO!!");
-            if(cliker>=4){
-                setNombreActual("la clave es: ****")
-            }
+    const verificarClave = () => {
+        setCliker(cliker + 1);
+    
+        if (nombreJugador === 'Roma') {
+          setNombreActual(nombreJugador);
+          setMostrarCarta(true);
+          setcosoJ(false);
+        } else if (nombreJugador === 'Jacque') {
+          setNombreActual(nombreJugador);
+          setMostrarCarta(false);
+          setcosoJ(true);
+        } else {
+          setNombreActual(`${nombreJugador} ES INCORRECTO!!`);
+    
+          if (cliker >= 4) {
+            setNombreActual('La clave es: ****');
+          }
         }
-    }
+      };
 
-    if(!mostrarCarta){
+    if(!mostrarCarta && !cosoJ){
         return(
             <div className="contenedor-inicio">
                 <div className="bienvenida">
                     <h1>¡Feliz PapuNavidad!</h1>
                     <section className='interactivo'>
                         <input placeholder="????" onChange={(e) => setNombreJugador(e.target.value)}></input>
-                        <button onClick={mostrar}> owo </button>
+                        <button onClick={verificarClave}> owo </button>
                     </section>
                     <p className="coso">{nombreActual}</p>
                 </div>
@@ -45,6 +52,13 @@ function Inicio(){
                 <Cartita />
             </div>
         );
+    }else if (cosoJ){
+        return(
+            <div className="contenedor-inicio">
+                <NuevaCarta />
+            </div>
+        );
+        
     }
     
 }

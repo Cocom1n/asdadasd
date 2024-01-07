@@ -1,7 +1,7 @@
 import CustomCursor from './componets/Customcursor.js';
 import  Inicio  from "./componets/Inicio";
 import  Tateti  from "./componets/Tateti";
-import  Cartita  from "./componets/Cartita";
+import  CardDc  from "./componets/CardDc.js";
 import "./App.css"
 
 import React, { useRef } from 'react';
@@ -25,7 +25,8 @@ function App (){
             </div>
 
             <div ref={seccion2Ref} className='seccion'>
-                <Tateti />
+                <CardDc />
+                {/* <Tateti /> */}
                 <div className='dobleBoton'>
                     <button className='flechas' onClick={() => scrollToSection(seccion1Ref)}>↑</button>
                     {/* <button className='flechas' onClick={() => scrollToSection(seccion3Ref)}>↓</button> */}
